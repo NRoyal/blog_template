@@ -1,0 +1,523 @@
+/*MOBILE DIMENTIONS*/
+	/*HEADER STYLES*/
+	body {
+		font-family: 'Ubuntu', sans-serif;
+	}
+	header {
+		height: 300px;
+	}
+	.logo {
+		padding: 5%;
+		width: 200px;
+	}
+	.blogsub {
+	    font-size: 12px;
+	    padding: 0 0 2% 0;
+	    position: absolute;
+	    top: 22%;
+	    left: 6%;
+	    width: 47%;
+	}
+	container {
+		padding: 1%;
+	}
+	.hamburger {
+	    position: relative;
+	    left: 46%;
+	    width: 8%;
+	    height: 5px;
+	    background-color: grey;
+	}
+	#line2 {
+		top: 5px;
+	}
+	#line3 {
+		top: 10px;
+	}
+	li {
+		text-align: center;
+		padding: .5%;
+		font-weight: bold;
+	}
+	a {
+		text-decoration: none;
+		position: relative;
+		left: 0%;
+		color: black;
+		font-size: 25px;
+		font-family: 'Ubuntu Condensed', sans-serif;
+	}
+	a:hover {
+		color: #f9e42e
+	}
+
+	/*ARTICLE STYLES*/
+	/*LAYOUT A*/
+	.layoutA {
+		padding: 4% 8% 4% 8%;
+	}
+	.emptyPlace {
+		width: 80%;
+		height: 60px;
+	}
+	.artImage	{
+		position: relative;
+		margin: 0 auto;
+		width: 100%;
+		padding: 10% 0 2% 0;
+	}
+	.articleTitle {
+	    font-size: 40px;
+	    position: absolute;
+	    left: 2%;
+	    border-bottom-color: black;
+	    border-style: solid;
+	    border-width: thick;
+	    width: 33%;
+	    padding: 1%;
+	    font-family: 'Ubuntu Condensed', sans-serif;
+	    z-index: 1;
+	    margin-top: -53%;
+	}
+	.subtitle {
+		padding: 2% 0 2% 0;
+		clear: both;
+		font-size: 30px;
+		font-family: 'Ubuntu Condensed', sans-serif;
+		font-weight: bold;
+		position: relative;
+	}
+	.byline {
+		clear: both;
+		font-size: 15px;
+	    font-style: italic;
+	    font-family: 'Ubuntu Condensed', sans-serif;
+		padding: 0 0 2% 0;
+		position: relative;
+		margin-top: -1%;
+	}
+	.articleContent {
+		clear: both;
+		padding: 5% 0 0 0;
+	    font-size: 13px;
+	    line-height: 100%;
+	}
+	.pullQuote {
+		clear: both;
+		padding: 5% 0 5% 0;
+		font-style: oblique;
+	    font-weight: bold;
+	    font-size: 30px;
+	    color: #f9e42e;
+	    font-family: 'Ubuntu Mono', monospace;
+	}
+	.more {
+	 	margin: 5% 0 0 0;	
+	  	padding: 3%;
+	  	width: 50%;
+	  	text-align: center;
+	  	position: relative;
+	  	left: 22%;
+	  	border-radius: 5px;
+	  	background-color: #f9e42e;
+	  	font-weight: bold;
+	}
+	.articleContent3#contentA3 {
+		clear: both;
+		padding: 2% 0 2% 0; 
+	}
+	.sectionHead#secA {
+		clear: both;
+		padding: 2% 0 2% 0; 
+		font-size: 30px;
+		font-family: 'Ubuntu Condensed', sans-serif;
+		font-weight: bold;
+	}
+	.articleContent4#contentA4 {
+		clear: both;
+		padding: 2% 0 2% 0; 
+	}
+	.codeSample {
+		clear: both;
+		padding: 2% 0 2% 0; 
+	}
+	.articleContent5#contentA5 {
+		clear: both;
+		padding: 2% 0 2% 0; 
+	}
+	.tags {
+		padding: 5% 0 5% 0;
+		text-align: center;
+		font-size: 12px;
+		font-style: italic;
+		font-family: 'Ubuntu Condensed', sans-serif;
+	}
+
+
+	/*ARTICLE STYLES*/
+	/*LAYOUT B*/
+	.layoutB {
+		padding: 4% 8% 4% 8%;
+	}
+
+	/*ARTICLE STYLES*/
+	/*LAYOUT C*/
+	.layoutC {
+		padding: 4% 8% 4% 8%;
+	}
+
+	/*FOOTER STYLES*/
+	footer {
+		text-align: center;
+		font-size: 10px;
+	}
+	#copyright {
+		font-style: italic;
+	}
+	.linkedin {
+		width: 6%;
+		padding: 1%;
+	}
+	.github {
+		width:	5.7%;
+		padding: 1%;
+	}
+
+
+/*RESIZING BLOGSUB AND SUBTITLE WITHIN MOBILE LIMITS*/	
+@media (min-width: 400px) {
+	.blogsub {
+	    top: 25%;
+	}
+}
+@media (min-width: 450px) {
+	.blogsub {
+		top: 28%;
+	}	
+}
+
+/*RESIZING TO TABLET DIMENTIONS*/
+@media (min-width: 625px) {
+	.more {
+	  	width: 23%;
+	  	position: relative;
+	  	clear: both;
+	  	left: 39%;
+	}
+}
+
+/*LAYOUT CHANGES WITHIN TABLET DIMENTIONS*/
+@media (min-width: 630px) { 
+	/*HEADER STYLES*/
+	.logo {
+		padding: 5%;
+		position: relative;
+		left: 0%;
+	}
+	.blogsub {
+		font-size: 1em;
+    	text-align: left;
+    	padding: 0 0 1% 6%;
+    	margin-top: 5%;
+	}
+	.hamburger {
+	    left: 85%;
+	    top: -200px;
+	}
+	#line2 {
+		top: -195px;
+	}
+	#line3 {
+		top: -190px;
+	}
+	ul {
+		position: relative;
+		top: -185px;
+	}
+	li {
+		text-align: right;
+		padding: 1% 7%;
+		position: relative;
+		top: 0px;
+	}
+	a {
+		font-size: 1.5em;
+	}
+	.emptyPlace {
+		width: 0%;
+		height: 0px;
+	}
+	/*ARTICLE STYLES*/
+	.byline {
+		font-size: 1.5em;
+	}
+	.articleContent1 {
+		padding: 1%;
+	    font-size: 1em;
+	    width: 41%;
+	    float: left;
+	}
+	.articleContent2 {
+		padding: 1%;
+	    line-height: 100%;
+	    float: right;
+	    width: 52%;
+	    position: relative;
+	    margin-top: -22%;
+	}
+	.pullQuote {
+		padding: 3%;
+	    font-size: 1.65em;
+	    float: right;
+	    width: 47%;
+	    position: relative;
+	    margin-top: -55%;
+	}
+	.more {
+	  	width: 15%;
+	  	position: relative;
+	  	clear: both;
+	  	left: 39%;
+	}
+	.hr {
+		clear: both;
+	}
+	.tags {
+		font-size: 1em;
+		clear: both;
+	}
+	/*FOOTER STYLES*/
+	footer {
+		font-size: .80em;
+	}
+} 
+
+@media (min-width: 700px) {
+	.articleContent2 {
+	    margin-top: -19%;
+	}
+	.pullQuote {
+	    margin-top: -40%;
+	} 	
+}
+/*LAYOUT CHANGES WITHIN TABLET DIMENTIONS*/
+@media (min-width: 800px) {
+	.articleContent2 {
+		margin-top: -15%;
+	}
+	.pullQuote {
+		margin-top: -29%;
+	}
+}
+
+/*TRANSITIONING BETWEEN TABLET AND COMPUTER DIMENTIONS*/
+@media (min-width: 900px) {
+	.more {
+	  	width: 14%;
+	  	position: relative;
+	  	clear: both;
+	  	left: 39%;
+	}
+}
+
+
+/*RESIZING TO COMPUTER DIMENTIONS*/
+@media (min-width: 1000px) {
+	/*LAYOUT A STYLES*/
+	.artImage {
+		padding: 1% 0 2% 0;
+	}
+	.artImage#artA {
+		padding: 8% 0 2% 0;
+	}
+	.articleTitle#titleA {
+	    font-size: 6em;
+	    position: absolute;
+	    left: 0%;
+	    border-style: none;
+	    border-width: none;
+	    border-bottom-color: black;
+	    border-bottom-style: solid;
+	    border-bottom-width: thick;
+	    width: 20%;
+	    padding: 1%;
+	    font-family: 'Ubuntu Condensed', sans-serif;
+	    z-index: 1;
+	    margin-top: -53%;
+	    margin-left: 72%;
+	}
+	.articleContent1#contentA1 {
+		padding: 1% 1% 1% 0;
+	    font-size: 1em;
+	    width: 30%;
+	    float: left;
+	}
+	.articleContent2#contentA2 {
+		padding: 1% 1% 1% 1%;
+	    line-height: 100%;
+	    width: 30%;
+	    position: relative;
+	    margin-top: -14%;
+	    left: 0%;
+	}
+	.pullQuote#quoteA {
+		padding: 3%;
+	    font-size: 2.1em;
+	    float: right;
+	    width: 30%;
+	    position: relative;
+	    margin-top: -16%;
+	    border-style: solid;
+    	border-width: thick;
+	}
+	.more {
+	  	width: 10%;
+	  	left: 42%;
+	}
+
+
+	/*LAYOUT B STYLES*/
+	}
+	#artB {
+		width: 45%;
+		padding: 0 0 5% 0;
+	}
+	.articleTitle#titleB {
+	    position: absolute;
+	    border-style: none;
+	    border-width: none;
+	    border-bottom-color: black;
+	    border-bottom-style: solid;
+	    border-bottom-width: thick;
+	    width: 20%;
+	    padding: 1%;
+	    font-family: 'Ubuntu Condensed', sans-serif;
+	    z-index: 1;
+	    text-align: right;
+	    left: -67%;
+	    margin-top: -26%;
+	    font-size: 3.75em;
+	    margin-left: 73%;
+	}
+	.subtitle#subB {
+		margin-top: -27%;
+    	margin-left: 50%;
+    	border-top-color: black;
+	    border-top-width: thin;
+	    border-top-style: solid;
+	}
+	.byline#byB {
+		margin-left: 50%;
+	}
+	.articleContent1#contentB1 {
+		padding: 1% 3% 5% 0;
+	    font-size: 1em;
+	    width: 25%;
+	    float: left;
+	    margin-left: 50%;
+	}
+	.articleContent2#contentB2 {
+		padding: 1% 1% 5% 3%;
+	    line-height: 100%;
+	    width: 25%;
+	    position: relative;
+	    margin-top: -26%;
+	    left: 1%;
+	}
+	.pullQuote#quoteB {
+		display: none;
+	}
+	/*LAYOUT C STYLES*/
+	.artImage#artC {
+		width: 45%;
+		float: right;
+		padding: 0 0 5% 0;
+	}
+	.articleTitle#titleC {
+	    position: absolute;
+	    border-style: solid;
+	    border-width: thick;
+	    width: 20%;
+	    padding: 1%;
+	    font-family: 'Ubuntu Condensed', sans-serif;
+	    z-index: 1;
+	    text-align: left;
+	    left: 0%;
+	    margin-top: 4%;
+	    font-size: 3.75em;
+	    margin-left: 71%;
+	}
+	.subtitle#subC {
+		margin-top: 9%;
+    	margin-left: 0%;
+    	border-top-color: black;
+	    border-top-width: thin;
+	    border-top-style: solid;
+	    clear: none;
+	    width: 18%;
+	}
+	.byline#byC {
+		margin-left: 0%;
+		margin-top: -1%;
+		clear: none;
+	}
+	.articleContent1#contentC1 {
+		padding: 1% 3% 5% 0;
+	    font-size: 1em;
+	    width: 49%;
+	    float: left;
+	    margin-left: 0%;
+	}
+	.articleContent2#contentC2 {
+		display: none;
+		padding: 1% 1% 5% 3%;
+	    line-height: 100%;
+	    width: 25%;
+	    position: relative;
+	    margin-top: -16%;
+	    left: 1%;
+	}
+	.pullQuote#quoteC {
+		display: none;
+	}
+	/*FOOTER STYLES*/
+	.linkedin {
+		width: 3%;
+	}
+	.github {
+		width: 2.7%;
+	}
+}
+/*LAYOUT CHANGES WITHIN DESKTOP DIMENTIONS*/
+@media (min-width: 1080px) {
+	.articleContent2#contentA2 {
+	    left: 0%;
+	}
+}
+@media (min-width: 1140px) {
+	.articleContent2#contentA2 {
+	    margin-top: -11%;
+	    left: 0%;
+	}
+	.articleContent2#contentB2 {
+	    margin-top: -20%;
+	}
+}
+
+@media (min-width: 1200px) {
+	.articleContent2#contentA2 {
+	    left: -38%;
+	}
+}
+
+@media (min-width: 1400px) {
+	.articleContent2#contentB2 {
+	    margin-top: -15%;
+	}
+}
+
+/** {
+  background: #000 !important;
+  color: #0f0 !important;
+  outline: solid #f00 1px !important;
+}*/
