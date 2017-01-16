@@ -98,8 +98,8 @@
 	}
 	.articleContent {
 		clear: both;
-		padding: 5% 0 0 0;
-	    font-size: 13px;
+		padding: 2% 0 2% 0;
+	    font-size: 100%;
 	    line-height: 100%;
 	}
 	.pullQuote {
@@ -122,29 +122,17 @@
 	  	background-color: #f9e42e;
 	  	font-weight: bold;
 	}
-/*	.articleContent3#contentA3 {
+	.sectionHead {
 		clear: both;
 		padding: 2% 0 2% 0; 
-	}
-	.sectionHead#secA {
-		clear: both;
-		padding: 2% 0 2% 0; 
-		font-size: 30px;
+		font-size: 131%;
 		font-family: 'Ubuntu Condensed', sans-serif;
 		font-weight: bold;
-	}
-	.articleContent4#contentA4 {
-		clear: both;
-		padding: 2% 0 2% 0; 
 	}
 	.codeSample {
 		clear: both;
 		padding: 2% 0 2% 0; 
 	}
-	.articleContent5#contentA5 {
-		clear: both;
-		padding: 2% 0 2% 0; 
-	}*/
 	.tags {
 		padding: 5% 0 5% 0;
 		text-align: center;
@@ -251,6 +239,9 @@
 	.byline {
 		font-size: 1.5em;
 	}
+	.articleContent {
+		font-size: 1em;
+	}
 	.articleContent1 {
 		padding: 1%;
 	    font-size: 1em;
@@ -345,6 +336,9 @@
 	    z-index: 1;
 	    margin-top: -53%;
 	    margin-left: 72%;
+	}
+	.articleContent {
+		font-size: 1em;
 	}
 	.articleContent1#contentA1 {
 		padding: 1% 1% 1% 0;
