@@ -170,7 +170,7 @@
 		width:	5.7%;
 		padding: 1%;
 	}
-
+}
 
 /*RESIZING BLOGSUB AND SUBTITLE WITHIN MOBILE LIMITS*/	
 @media (min-width: 400px) {
@@ -182,7 +182,7 @@
 	.blogsub {
 		top: 28%;
 	}	
-}
+
 
 /*RESIZING TO TABLET DIMENTIONS*/
 @media (min-width: 625px) {
@@ -476,10 +476,10 @@
 	}
 	/*FOOTER STYLES*/
 	.linkedin {
-		width: 3%;
+		width: 3.9%;
 	}
 	.github {
-		width: 2.7%;
+		width: 3.7%;
 	}
 }
 /*LAYOUT CHANGES WITHIN DESKTOP DIMENTIONS*/
