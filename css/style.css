@@ -235,6 +235,7 @@
 		width: 0%;
 		height: 0px;
 	}
+	
 	/*ARTICLE STYLES*/
 	.byline {
 		font-size: 1.5em;
@@ -277,11 +278,13 @@
 		font-size: 1em;
 		clear: both;
 	}
+	
 	/*FOOTER STYLES*/
 	footer {
 		font-size: .80em;
 	}
 } 
+
 
 @media (min-width: 700px) {
 	.articleContent2 {
@@ -291,6 +294,7 @@
 	    margin-top: -40%;
 	} 	
 }
+
 /*LAYOUT CHANGES WITHIN TABLET DIMENTIONS*/
 @media (min-width: 800px) {
 	.articleContent2 {
@@ -313,7 +317,7 @@
 
 
 /*RESIZING TO COMPUTER DIMENTIONS*/
-@media (min-width: 1000px) {
+@media (min-width: 1000px) {  
 	/*LAYOUT A STYLES*/
 	.artImage {
 		padding: 1% 0 2% 0;
@@ -371,7 +375,6 @@
 
 
 	/*LAYOUT B STYLES*/
-	}
 	#artB {
 		width: 45%;
 		padding: 0 0 5% 0;
